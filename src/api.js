@@ -1,6 +1,6 @@
 import faker from "faker";
 
-const TIMEOUT = 3000; // ms
+const TIMEOUT = 1000; // ms
 
 const userFactory = () => ({
   id: faker.random.number(),
